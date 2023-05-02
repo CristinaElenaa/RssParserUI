@@ -1,0 +1,19 @@
+
+<table>
+    <thead>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Link</th>
+      <th>PublishDate</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let rssItem of newsList">
+        <td>{{ rssItem.title }}</td>
+        <td>{{ rssItem.description }}</td>
+        <td>{{ rssItem.link }}</td>
+        <td>{{ rssItem.publishDate }}</td>
+  
+      </tr>
+    </tbody>
+  </table>
